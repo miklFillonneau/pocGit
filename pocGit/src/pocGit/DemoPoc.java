@@ -2,22 +2,29 @@ package pocGit;
 
 public class DemoPoc {
 	private String name;
-	private String firstname;
+	private String firstName;
 	private int age;
-	
-	public String getName(){
+
+	public String getName() {
 		return this.name;
 	}
-	
-	public String setName(){
-		return name;
+
+	public String getFisrtName() {
+		return this.firstName;
 	}
-	//commentaire poc
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+
+	}
+
+	// commentaire poc
 	public static void main(String[] args) {
 		System.out.println("test");
-		
-		
-		
-		
+
 	}
 }
